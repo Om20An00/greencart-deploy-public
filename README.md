@@ -13,7 +13,7 @@
 ## 🖼️ Screenshots
 
 ### 🏠 Landing Page  
-[<img width="1349" height="557" alt="image" src="https://github.com/user-attachments/assets/d3b68403-8006-4563-8989-0c7a65a5da30" />](https://github.com/Om20An00/greencart-deploy-public/blob/main/client/src/assets/1.png)
+client/src/assets/1.png
 
 
 ### 🛍️ Product Listing  
