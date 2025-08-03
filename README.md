@@ -13,15 +13,15 @@
 ## 🖼️ Screenshots
 
 ### 🏠 Landing Page  
-<img width="1349" height="557" alt="image" src="https://github.com/user-attachments/assets/d3b68403-8006-4563-8989-0c7a65a5da30" />
+[<img width="1349" height="557" alt="image" src="https://github.com/user-attachments/assets/d3b68403-8006-4563-8989-0c7a65a5da30" />](https://github.com/Om20An00/greencart-deploy-public/blob/main/client/src/assets/1.png)
 
 
 ### 🛍️ Product Listing  
-<img width="1349" height="706" alt="image" src="https://github.com/user-attachments/assets/1b23a371-3395-46c6-aa3c-7c907a1bccc3" />
+[<img width="1349" height="706" alt="image" src="https://github.com/user-attachments/assets/1b23a371-3395-46c6-aa3c-7c907a1bccc3" />](https://github.com/Om20An00/greencart-deploy-public/blob/main/client/src/assets/2.png)
 
 
 ### 🛒 Cart & Checkout  
-<img width="1345" height="631" alt="image" src="https://github.com/user-attachments/assets/75562e2a-b83f-40a0-ab88-d6d5f97bdce2" />
+[<img width="1345" height="631" alt="image" src="https://github.com/user-attachments/assets/75562e2a-b83f-40a0-ab88-d6d5f97bdce2" />](https://github.com/Om20An00/greencart-deploy-public/blob/main/client/src/assets/3.png)
 
 
 ---
