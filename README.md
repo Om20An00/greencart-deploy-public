@@ -13,7 +13,10 @@
 ## 🖼️ Screenshots
 
 ### 🏠 Landing Page  
-[client/src/assets/1.png](https://github.com/Om20An00/greencart-deploy-public/blob/b6220f7b68dc44f9492a9f78a3b6cfa82a8e33be/client/src/assets/1.png)
+## 🛒 GreenCart App Preview
+
+![GreenCart Screenshot](https://raw.githubusercontent.com/Om20An00/greencart-deploy-public/main/client/src/assets/1.png)
+
 
 
 ### 🛍️ Product Listing  
