@@ -105,7 +105,8 @@ If you have Docker installed, you can run the entire app easily with Docker Comp
 
 ### 🐳 Docker Setup Screenshot
 
-![Docker Screenshot](https://github.com/Om20An00/greencart-deploy-public/blob/ca7e48c14a6eb83c3994cf59cf0b7edd8d7d9018/client/src/assets/docker%20image.jpg?raw=true)
+![Docker Screenshot](https://github.com/Om20An00/greencart-deploy-public/blob/1b5e25e2e6d4953ecd489d90c95e1ce5a4acbbff/client/src/assets/docker_image.jpg?raw=true)
+
 
 
 
