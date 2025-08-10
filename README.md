@@ -99,6 +99,31 @@ env
 
 VITE_BACKEND_URL=http://localhost:5000
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
+
+🐳 Run with Docker (Local)
+If you have Docker installed, you can run the entire app easily with Docker Compose.
+
+Steps:
+Clone the repo (or your fork)
+
+Create a .env file inside the server/ folder from .env.example and fill in your environment variables.
+
+From the project root folder, run:
+
+docker compose up --build
+Wait for the build and containers to start.
+
+Visit the frontend at: http://localhost:3000
+
+Backend APIs run on: http://localhost:4000
+
+To run Docker containers in background (detached mode):
+
+docker compose up --build -d
+To stop and remove containers:
+
+docker compose down
+
 🤝 Contributing / Forking
 Want to contribute or build your own version?
 
