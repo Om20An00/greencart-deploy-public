@@ -15,28 +15,31 @@ import { stripeWebhooks } from './controllers/orderController.js';
 const app = express();
 const port = process.env.PORT || 4000;
 
-await connectDB()
-await connectCloudinary()
+await connectDB();
+await connectCloudinary();
 
-// Allow multiple origins
-const allowedOrigins = ['http://localhost:5173', '']
+// Allow multiple origins (remove empty string)
+const allowedOrigins = ['http://localhost:5173'];
 
-app.post('/stripe', express.raw({type: 'application/json'}), stripeWebhooks)
+app.post('/stripe', express.raw({type: 'application/json'}), stripeWebhooks);
 
 // Middleware configuration
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({origin: allowedOrigins, credentials: true}));
+app.use(cors({ origin: allowedOrigins, credentials: true }));
 
+// Health check endpoint
+app.get('/api/health', (req, res) => res.json({ ok: true }));
 
 app.get('/', (req, res) => res.send("API is Working"));
-app.use('/api/user', userRouter)
-app.use('/api/seller', sellerRouter)
-app.use('/api/product', productRouter)
-app.use('/api/cart', cartRouter)
-app.use('/api/address', addressRouter)
-app.use('/api/order', orderRouter)
+app.use('/api/user', userRouter);
+app.use('/api/seller', sellerRouter);
+app.use('/api/product', productRouter);
+app.use('/api/cart', cartRouter);
+app.use('/api/address', addressRouter);
+app.use('/api/order', orderRouter);
 
-app.listen(port, ()=>{
-    console.log(`Server is running on http://localhost:${port}`)
-})
+// Bind to 0.0.0.0 so Docker can access it externally
+app.listen(port, '0.0.0.0', () => {
+    console.log(`Server is running on http://localhost:${port}`);
+});
