@@ -103,6 +103,11 @@ VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
 🐳 Run with Docker (Local)
 If you have Docker installed, you can run the entire app easily with Docker Compose.
 
+### 🐳 Docker Setup Screenshot
+
+![Docker Screenshot](https://github.com/Om20An00/greencart-deploy-public/blob/ca7e48c14a6eb83c3994cf59cf0b7edd8d7d9018/client/src/assets/docker%20image.jpg?raw=true)
+
+
 Steps:
 Clone the repo (or your fork)
 
