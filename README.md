@@ -71,7 +71,7 @@
 
 ### 📥 Clone the Repositories
 
-```bash
+
 git clone https://github.com/yourusername/greencart-frontend
 git clone https://github.com/yourusername/greencart-backend
 
