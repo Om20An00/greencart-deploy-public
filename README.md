@@ -73,6 +73,7 @@
 
 
 git clone https://github.com/Om20An00/greencart-frontend
+
 git clone https://github.com/Om20An00/greencart-backend
 
 🚀 Frontend Setup
@@ -90,10 +91,15 @@ Backend .env
 env
 
 MONGODB_URI=your_mongo_url
+
 STRIPE_SECRET_KEY=your_stripe_key
+
 CLOUDINARY_CLOUD_NAME=your_name
+
 CLOUDINARY_API_KEY=your_key
+
 CLOUDINARY_API_SECRET=your_secret
+
 Frontend .env
 env
 
