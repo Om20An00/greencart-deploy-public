@@ -72,20 +72,21 @@
 ### 📥 Clone the Repositories
 
 
-git clone https://github.com/Om20An00/greencart-frontend
+-git clone https://github.com/Om20An00/greencart-frontend
 
-git clone https://github.com/Om20An00/greencart-backend
+-git clone https://github.com/Om20An00/greencart-backend
 
 🚀 Frontend Setup
 
-cd greencart-frontend
-npm install
-npm run dev
+-cd greencart-frontend
+-npm install
+-npm run dev
+
 🛠️ Backend Setup
 
-cd greencart-backend
-npm install
-npm start
+-cd greencart-backend
+-npm install
+-npm start
 🔐 Environment Variables
 
 Backend .env
@@ -126,6 +127,7 @@ Create a .env file inside the server/ folder from .env.example and fill in your 
 From the project root folder, run:
 
 docker compose up --build
+
 Wait for the build and containers to start.
 
 Visit the frontend at: http://localhost:3000
@@ -134,10 +136,11 @@ Backend APIs run on: http://localhost:4000
 
 To run Docker containers in background (detached mode):
 
-docker compose up --build -d
+-docker compose up --build -d
+
 To stop and remove containers:
 
-docker compose down
+-docker compose down
 
 🤝 Contributing / Forking
 Want to contribute or build your own version?
@@ -146,7 +149,8 @@ Want to contribute or build your own version?
 
 📥 Clone it to your local system
 
-git clone https://github.com/Om20An00/greencart-deploy-public.git
+git clone 
+-https://github.com/Om20An00/greencart-deploy-public.git
 
 🔧 Make your changes
 
