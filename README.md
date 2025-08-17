@@ -72,8 +72,8 @@
 ### 📥 Clone the Repositories
 
 
-git clone https://github.com/yourusername/greencart-frontend
-git clone https://github.com/yourusername/greencart-backend
+git clone https://github.com/Om20An00/greencart-frontend
+git clone https://github.com/Om20An00/greencart-backend
 
 🚀 Frontend Setup
 
