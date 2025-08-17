@@ -87,7 +87,9 @@ cd greencart-backend
 npm install
 npm start
 🔐 Environment Variables
+
 Backend .env
+
 env
 
 MONGODB_URI=your_mongo_url
@@ -101,9 +103,11 @@ CLOUDINARY_API_KEY=your_key
 CLOUDINARY_API_SECRET=your_secret
 
 Frontend .env
+
 env
 
 VITE_BACKEND_URL=http://localhost:5000
+
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
 
 🐳 Run with Docker (Local)
@@ -112,8 +116,6 @@ If you have Docker installed, you can run the entire app easily with Docker Comp
 ### 🐳 Docker Setup Screenshot
 
 ![Docker Screenshot](https://github.com/Om20An00/greencart-deploy-public/blob/1b5e25e2e6d4953ecd489d90c95e1ce5a4acbbff/client/src/assets/docker_image.jpg?raw=true)
-
-
 
 
 Steps:
@@ -144,7 +146,7 @@ Want to contribute or build your own version?
 
 📥 Clone it to your local system
 
-git clone https://github.com/Om20An00/greencart.git
+git clone https://github.com/Om20An00/greencart-deploy-public.git
 
 🔧 Make your changes
 
