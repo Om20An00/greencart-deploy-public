@@ -138,7 +138,8 @@ Want to contribute or build your own version?
 
 📥 Clone it to your local system
 
-git clone https://github.com/yourusername/greencart.git
+git clone https://github.com/Om20An00/greencart.git
+
 🔧 Make your changes
 
 ✅ Push and submit a pull request
